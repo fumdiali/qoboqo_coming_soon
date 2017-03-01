@@ -1,0 +1,33 @@
+html, body{
+	padding: 0px;
+	margin: 0px;
+	background:url('../images/back7.jpg') center center no-repeat;
+	height:100%;
+	background-size:cover;
+}
+
+#name {
+	color: #FF3F1F;
+	font-family: 'Allerta Stencil';
+	font-size: 200px;
+	padding-top: 55px;
+	/*font-family: Jazz LET,fantasy;
+	font-weight:bold;
+	font-size: 232px;*/
+}
+#intro h2 {
+	color: #ffffff;
+}
+
+.count {
+	color: /*#800000;*/#ffff00;
+	font-size: 33px;
+}
+
+hr {width: 50%;}
+
+#icons i {color: #FFFFFF;font-size: 45px;padding: 3px;}
+h4 a{color: #FFFFFF;}
+@media screen and (max-width: 580px){
+	#name {font-size: 76px;}
+	}
